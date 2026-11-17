@@ -1,0 +1,17 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="980" height="176" viewBox="0 0 980 176" role="img" aria-label="~/samncg/toolbox">
+  <title>~/samncg/toolbox</title>
+  <style>
+    text { font-family: ui-monospace, SFMono-Regular, Menlo, Consolas, "Liberation Mono", monospace; font-size: 12.5px; white-space: pre; fill: #4a4a4a; }
+    .ink { fill: #121212; } .faint { fill: #9a9a9a; } .accent { fill: #6b4fd8; }
+    .title { fill: #121212; font-weight: 700; font-size: 13.5px; }
+    .row { opacity: 0; animation: in .6s ease-out forwards; }
+    @keyframes in { from { opacity: 0; transform: translateY(4px); } to { opacity: 1; transform: none; } }
+    @media (prefers-reduced-motion: reduce) { .row { animation: none; opacity: 1; } }
+  </style>
+  <rect x=".5" y=".5" width="979" height="175" rx="10" fill="#ffffff" stroke="#d0d7de"/>
+  <text class="title" x="22" y="34">~/samncg/toolbox</text>
+  <g class="row" style="animation-delay:0.00s"><text x="22" y="66"><tspan class="accent">languages </tspan> <tspan class="faint">[</tspan><tspan class="ink">java</tspan><tspan class="faint">]</tspan> <tspan class="faint">[</tspan><tspan class="ink">c#</tspan><tspan class="faint">]</tspan> <tspan class="faint">[</tspan><tspan class="ink">python</tspan><tspan class="faint">]</tspan> <tspan class="faint">[</tspan><tspan class="ink">kotlin</tspan><tspan class="faint">]</tspan> <tspan class="faint">[</tspan><tspan class="ink">javascript</tspan><tspan class="faint">]</tspan> <tspan class="faint">[</tspan><tspan class="ink">rust (learning)</tspan><tspan class="faint">]</tspan></text></g>
+  <g class="row" style="animation-delay:0.10s"><text x="22" y="92"><tspan class="accent">build     </tspan> <tspan class="faint">[</tspan><tspan class="ink">react</tspan><tspan class="faint">]</tspan> <tspan class="faint">[</tspan><tspan class="ink">vite</tspan><tspan class="faint">]</tspan> <tspan class="faint">[</tspan><tspan class="ink">jetpack compose</tspan><tspan class="faint">]</tspan> <tspan class="faint">[</tspan><tspan class="ink">godot</tspan><tspan class="faint">]</tspan> <tspan class="faint">[</tspan><tspan class="ink">webgl</tspan><tspan class="faint">]</tspan></text></g>
+  <g class="row" style="animation-delay:0.20s"><text x="22" y="118"><tspan class="accent">make      </tspan> <tspan class="faint">[</tspan><tspan class="ink">cad</tspan><tspan class="faint">]</tspan> <tspan class="faint">[</tspan><tspan class="ink">kicad</tspan><tspan class="faint">]</tspan> <tspan class="faint">[</tspan><tspan class="ink">blender</tspan><tspan class="faint">]</tspan> <tspan class="faint">[</tspan><tspan class="ink">3d printing</tspan><tspan class="faint">]</tspan> <tspan class="faint">[</tspan><tspan class="ink">pla/petg/abs/asa/tpu</tspan><tspan class="faint">]</tspan></text></g>
+  <g class="row" style="animation-delay:0.30s"><text x="22" y="144"><tspan class="accent">ai        </tspan> <tspan class="faint">[</tspan><tspan class="ink">local llms</tspan><tspan class="faint">]</tspan> <tspan class="faint">[</tspan><tspan class="ink">comfyui</tspan><tspan class="faint">]</tspan> <tspan class="faint">[</tspan><tspan class="ink">agents</tspan><tspan class="faint">]</tspan></text></g>
+</svg>

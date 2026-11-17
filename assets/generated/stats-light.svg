@@ -1,0 +1,20 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="480" height="222" viewBox="0 0 480 222" role="img" aria-label="~/samncg/stats">
+  <title>~/samncg/stats</title>
+  <style>
+    text { font-family: ui-monospace, SFMono-Regular, Menlo, Consolas, "Liberation Mono", monospace; font-size: 12.5px; white-space: pre; fill: #4a4a4a; }
+    .ink { fill: #121212; } .faint { fill: #9a9a9a; } .accent { fill: #6b4fd8; }
+    .title { fill: #121212; font-weight: 700; font-size: 13.5px; }
+    .row { opacity: 0; animation: in .6s ease-out forwards; }
+    @keyframes in { from { opacity: 0; transform: translateY(4px); } to { opacity: 1; transform: none; } }
+    @media (prefers-reduced-motion: reduce) { .row { animation: none; opacity: 1; } }
+  </style>
+  <rect x=".5" y=".5" width="479" height="221" rx="10" fill="#ffffff" stroke="#d0d7de"/>
+  <text class="title" x="22" y="34">~/samncg/stats</text>
+  <g class="row" style="animation-delay:0.00s"><text x="22" y="66"><tspan class="faint">&gt; </tspan>contributions (1y) <tspan class="faint">.......................</tspan> <tspan class="ink">164</tspan></text></g>
+  <g class="row" style="animation-delay:0.08s"><text x="22" y="87"><tspan class="faint">&gt; </tspan>commits (1y) <tspan class="faint">.............................</tspan> <tspan class="ink">157</tspan></text></g>
+  <g class="row" style="animation-delay:0.16s"><text x="22" y="108"><tspan class="faint">&gt; </tspan>public repos <tspan class="faint">...............................</tspan> <tspan class="ink">9</tspan></text></g>
+  <g class="row" style="animation-delay:0.24s"><text x="22" y="129"><tspan class="faint">&gt; </tspan>stars earned <tspan class="faint">...............................</tspan> <tspan class="ink">4</tspan></text></g>
+  <g class="row" style="animation-delay:0.32s"><text x="22" y="150"><tspan class="faint">&gt; </tspan>current streak <tspan class="faint">............................</tspan> <tspan class="accent">5d</tspan></text></g>
+  <g class="row" style="animation-delay:0.40s"><text x="22" y="171"><tspan class="faint">&gt; </tspan>longest streak <tspan class="faint">............................</tspan> <tspan class="accent">6d</tspan></text></g>
+  <g class="row" style="animation-delay:0.48s"><text x="22" y="192"><tspan class="faint">&gt; </tspan>on github since <tspan class="faint">.........................</tspan> <tspan class="ink">2023</tspan></text></g>
+</svg>
