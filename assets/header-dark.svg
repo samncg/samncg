@@ -1,0 +1,96 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1000" height="270" viewBox="0 0 1000 270" role="img" aria-label="ncgg, rendered in ASCII over a field of waves">
+  <title>ncgg</title>
+  <defs>
+    <linearGradient id="shine" gradientUnits="userSpaceOnUse" x1="-300" y1="0" x2="0" y2="0">
+      <stop offset="0" stop-color="#ededed"/>
+      <stop offset="0.5" stop-color="#ffffff"/>
+      <stop offset="1" stop-color="#ededed"/>
+      <animateTransform attributeName="gradientTransform" type="translate" values="-200 0; 1500 0" dur="5.5s" repeatCount="indefinite"/>
+    </linearGradient>
+  </defs>
+  <style>
+    text { font-family: ui-monospace, SFMono-Regular, Menlo, Consolas, "Liberation Mono", monospace; font-size: 12.5px; white-space: pre; }
+    .dim { fill: #3a3a3a; }
+    .tint { fill: #8b6cf0; animation: breathe 6s ease-in-out infinite; }
+    .mark { fill: url(#shine); font-weight: 700; }
+    .tag { fill: #8a8a8a; font-size: 12px; }
+    .tag b { fill: #ededed; }
+    @keyframes breathe { 0%, 100% { opacity: .45; } 50% { opacity: .9; } }
+    @media (prefers-reduced-motion: reduce) { .tint { animation: none; opacity: .7; } }
+  </style>
+  <rect width="1000" height="270" rx="10" fill="#000000"/>
+  <rect x=".5" y=".5" width="999" height="269" rx="10" fill="none" stroke="#222222"/>
+  <g>
+    <text class="dim" x="0" y="13.8" textLength="1000" lengthAdjust="spacing">                                                                   .          .                                         </text>
+    <text class="dim" x="0" y="23.8" textLength="1000" lengthAdjust="spacing">                                                              .              .                                          </text>
+    <text class="dim" x="0" y="33.8" textLength="1000" lengthAdjust="spacing">                                                        .                 .                                            .</text>
+    <text class="dim" x="0" y="43.8" textLength="1000" lengthAdjust="spacing">                                                                .                                        ..             </text>
+    <text class="dim" x="0" y="53.8" textLength="1000" lengthAdjust="spacing">                                                                                    .                                   </text>
+    <text class="dim" x="0" y="63.8" textLength="1000" lengthAdjust="spacing">                                       .                                                            ..                  </text>
+    <text class="dim" x="0" y="73.8" textLength="1000" lengthAdjust="spacing">                                                                                  .          .                          </text>
+    <text class="dim" x="0" y="83.8" textLength="1000" lengthAdjust="spacing">                                                                                          .                             </text>
+    <text class="dim" x="0" y="93.8" textLength="1000" lengthAdjust="spacing">                                                                                  .      .                              </text>
+    <text class="dim" x="0" y="103.8" textLength="1000" lengthAdjust="spacing">                                                                                         .                              </text>
+    <text class="dim" x="0" y="113.8" textLength="1000" lengthAdjust="spacing">                             .                                                           .                              </text>
+    <text class="dim" x="0" y="123.8" textLength="1000" lengthAdjust="spacing">                    .                                                               .                                   </text>
+    <text class="dim" x="0" y="133.8" textLength="1000" lengthAdjust="spacing">                                                                                     .                                  </text>
+    <text class="dim" x="0" y="173.8" textLength="1000" lengthAdjust="spacing">            .         .                                                                         .                       </text>
+    <text class="dim" x="0" y="183.8" textLength="1000" lengthAdjust="spacing">                       .                                                                          .                     </text>
+    <text class="dim" x="0" y="193.8" textLength="1000" lengthAdjust="spacing">           .              .                                                                         .                   </text>
+    <text class="dim" x="0" y="203.8" textLength="1000" lengthAdjust="spacing">            .                                                                                    .                      </text>
+    <text class="dim" x="0" y="213.8" textLength="1000" lengthAdjust="spacing">                ...                                                                                      .              </text>
+    <text class="dim" x="0" y="223.8" textLength="1000" lengthAdjust="spacing">                              .                                                                       .                 </text>
+    <text class="dim" x="0" y="233.8" textLength="1000" lengthAdjust="spacing">   .                                  .                                                                                 </text>
+    <text class="dim" x="0" y="243.8" textLength="1000" lengthAdjust="spacing">    .                                       .                                                                     .     </text>
+    <text class="dim" x="0" y="253.8" textLength="1000" lengthAdjust="spacing">     .                                                    .                                                    .        </text>
+    <text class="dim" x="0" y="263.8" textLength="1000" lengthAdjust="spacing">     .                                                .                                                                 </text>
+  </g>
+  <g>
+    <text class="tint" x="0" y="13.8" textLength="1000" lengthAdjust="spacing">.                                                                   .,,,,,,,..                                          </text>
+    <text class="tint" x="0" y="23.8" textLength="1000" lengthAdjust="spacing">                                                               ..,,,,,,,,,...                                           </text>
+    <text class="tint" x="0" y="33.8" textLength="1000" lengthAdjust="spacing">                                                         ..,,,,,,,,,,.....                                              </text>
+    <text class="tint" x="0" y="43.8" textLength="1000" lengthAdjust="spacing">                                                  ..,,,,,,,,....                                           ......,,,,,,,</text>
+    <text class="tint" x="0" y="53.8" textLength="1000" lengthAdjust="spacing">                                               ,,,,,,..                              .....,,,,,,,,,,,,,,,,,,,,,,,,,.....</text>
+    <text class="tint" x="0" y="63.8" textLength="1000" lengthAdjust="spacing">                                        .                                          ...,,,,,,,,,,....                    </text>
+    <text class="tint" x="0" y="73.8" textLength="1000" lengthAdjust="spacing">                                     ,,,                                           .,,,,,,,..                           </text>
+    <text class="tint" x="0" y="83.8" textLength="1000" lengthAdjust="spacing">                                      .                                           ..,,,,,.                              </text>
+    <text class="tint" x="0" y="93.8" textLength="1000" lengthAdjust="spacing">                             .,,                                                   .,,,,.                               </text>
+    <text class="tint" x="0" y="103.8" textLength="1000" lengthAdjust="spacing">                            ,,,.                                                   .,,,,.                               </text>
+    <text class="tint" x="0" y="113.8" textLength="1000" lengthAdjust="spacing">                            .                                                       .,,,.                               </text>
+    <text class="tint" x="0" y="123.8" textLength="1000" lengthAdjust="spacing">                     .                                                               .,,,.                              </text>
+    <text class="tint" x="0" y="133.8" textLength="1000" lengthAdjust="spacing">                    ,,                                                                .,,,.                             </text>
+    <text class="tint" x="0" y="143.8" textLength="1000" lengthAdjust="spacing">                    ,,.                                                                .,,,.                            </text>
+    <text class="tint" x="0" y="153.8" textLength="1000" lengthAdjust="spacing">                    ,..                                                                 .,,,.                           </text>
+    <text class="tint" x="0" y="163.8" textLength="1000" lengthAdjust="spacing">                    ,.                                                                    .,,,.                         </text>
+    <text class="tint" x="0" y="173.8" textLength="1000" lengthAdjust="spacing">             .,,,,,,..                                                                     .,,,,                        </text>
+    <text class="tint" x="0" y="183.8" textLength="1000" lengthAdjust="spacing">            ..,,,,,,,..                                                                      .,,,,                      </text>
+    <text class="tint" x="0" y="193.8" textLength="1000" lengthAdjust="spacing">            ..,,,,,,,,,,..                                                                     .,,,,                    </text>
+    <text class="tint" x="0" y="203.8" textLength="1000" lengthAdjust="spacing">             ....,,,,,,,,,,,,...                                                                  .,,,.                 </text>
+    <text class="tint" x="0" y="213.8" textLength="1000" lengthAdjust="spacing">                   .....,,,,,,,,,,,,..                                                              .,,,.               </text>
+    <text class="tint" x="0" y="223.8" textLength="1000" lengthAdjust="spacing">                               ...,,,,,,,,..                                                           .,,,.            </text>
+    <text class="tint" x="0" y="233.8" textLength="1000" lengthAdjust="spacing">...                                    ..,,,,,,..                                                        .,,,,.         </text>
+    <text class="tint" x="0" y="243.8" textLength="1000" lengthAdjust="spacing">,,..                                         ..,,,,,..                                                      .,,,,.      </text>
+    <text class="tint" x="0" y="253.8" textLength="1000" lengthAdjust="spacing">,,,,.                                             ..,,,,,.                                                      .,,,,.  </text>
+    <text class="tint" x="0" y="263.8" textLength="1000" lengthAdjust="spacing">,,,,.                                                  .,,,,,..                                                    .,,,,</text>
+  </g>
+  <g>
+    <text class="mark" x="0" y="53.8" textLength="1000" lengthAdjust="spacing">             -~=~           ~~=~-          -~=~              ~=~                                                        </text>
+    <text class="mark" x="0" y="63.8" textLength="1000" lengthAdjust="spacing">     +@@@@=~#@@@@@=      +#@@@@@@@x-     ~%@@@@@+=@@@@*    x@@@@@x @@@@@                                                </text>
+    <text class="mark" x="0" y="73.8" textLength="1000" lengthAdjust="spacing">     +@@@@%@@@@@@@@~   -#@@@@@@@@@@@=   ~@@@@@@@@#@@@@*   #@@@@@@@#@@@@@                                                </text>
+    <text class="mark" x="0" y="83.8" textLength="1000" lengthAdjust="spacing">     +@@@@@@@@@@@@@x   #@@@@@x*%@@@@@~  #@@@@@%%@@@@@@*  *@@@@@#%@@@@@@@                                                </text>
+    <text class="mark" x="0" y="93.8" textLength="1000" lengthAdjust="spacing">     +@@@@@+  %@@@@#  +@@@@@-   +#%x*~ -@@@@@~  ~@@@@@*  #@@@@x   %@@@@@                                                </text>
+    <text class="mark" x="0" y="103.8" textLength="1000" lengthAdjust="spacing">     +@@@@#   =@@@@#  x@@@@*           =@@@@#    %@@@@*  @@@@@~   =@@@@@                                                </text>
+    <text class="mark" x="0" y="113.8" textLength="1000" lengthAdjust="spacing">     +@@@@%   =@@@@#  x@@@@+           =@@@@#    x@@@@*  @@@@@~   ~@@@@@                                                </text>
+    <text class="mark" x="0" y="123.8" textLength="1000" lengthAdjust="spacing">     +@@@@%   =@@@@#  x@@@@x     +=~-  -@@@@@-   @@@@@*  %@@@@*   x@@@@@                                                </text>
+    <text class="mark" x="0" y="133.8" textLength="1000" lengthAdjust="spacing">     +@@@@%   =@@@@#  =@@@@@=   x@@@@x  %@@@@@**#@@@@@*  +@@@@@x*%@@@@@@                                                </text>
+    <text class="mark" x="0" y="143.8" textLength="1000" lengthAdjust="spacing">     +@@@@%   =@@@@#   %@@@@@##@@@@@@-  -@@@@@@@@@@@@@*   x@@@@@@@@@@@@@                                                </text>
+    <text class="mark" x="0" y="153.8" textLength="1000" lengthAdjust="spacing">     +@@@@%   =@@@@#    x@@@@@@@@@@#~    -%@@@@@+x@@@@*    *@@@@@x=@@@@@                                                </text>
+    <text class="mark" x="0" y="163.8" textLength="1000" lengthAdjust="spacing">     =%%%%*   ~%%%%x     ~*%@@@@#%=         ~=~  x@@@@*      ~=~  =@@@@@                                                </text>
+    <text class="mark" x="0" y="173.8" textLength="1000" lengthAdjust="spacing">                                        @#%x*    #@@@@+  *@#%x=   *@@@@#                                                </text>
+    <text class="mark" x="0" y="183.8" textLength="1000" lengthAdjust="spacing">                                        #@@@@#*+%@@@@@   +@@@@@*+x@@@@@+                                                </text>
+    <text class="mark" x="0" y="193.8" textLength="1000" lengthAdjust="spacing">                                        ~@@@@@@@@@@@@~    #@@@@@@@@@@@x                                                 </text>
+    <text class="mark" x="0" y="203.8" textLength="1000" lengthAdjust="spacing">                                         -x#@@@@@@#*-      +%@@@@@@@x=                                                  </text>
+    <text class="mark" x="0" y="213.8" textLength="1000" lengthAdjust="spacing">                                              --               ---                                                      </text>
+  </g>
+  <text class="tag" x="967" y="248" text-anchor="end">cad · 3d printing · software · games · ai · robotics   ncgg.dev</text>
+</svg>
