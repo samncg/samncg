@@ -39,6 +39,7 @@ I make things you can hold, play and run: CAD and 3D printed parts, Android apps
 |---|---|---|
 | [**yume**](https://github.com/samncg/yume) | painting studio for Android tablets, made for the pen, canvases up to 16K | `v1.2.4` |
 | [**ledger**](https://github.com/samncg/ledger-app) | local-first allowance budgeting, web + Android ([try it](https://samncg.github.io/ledger/)) | `live` |
+| [**nora**](https://github.com/samncg/nora) | local AI chatbot that texts you on Discord: Gemma in llama.cpp, long-term memory, Whisper voice notes | `self-hosted` |
 | [**ncgg.dev**](https://github.com/samncg/ncgg.dev) | my portfolio: an ASCII fluid simulation in WebGL | `live` |
 | **solace** | RP2350 handheld MP3/FLAC player, KiCad schematic done, board in layout | `in progress` |
 | **ftc 27308** | DECODE robot: mecanum drive, intake, turret flywheel shooter | `finalist alliance` |
