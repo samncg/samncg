@@ -2,7 +2,7 @@
   <title>~/samncg/toolbox</title>
   <style>
     text { font-family: ui-monospace, SFMono-Regular, Menlo, Consolas, "Liberation Mono", monospace; font-size: 12.5px; white-space: pre; fill: #4a4a4a; }
-    .ink { fill: #121212; } .faint { fill: #9a9a9a; } .accent { fill: #6b4fd8; }
+    .ink { fill: #121212; } .faint { fill: #9a9a9a; } .accent { fill: #3c2899; }
     .title { fill: #121212; font-weight: 700; font-size: 13.5px; }
     .row { opacity: 0; animation: in .6s ease-out forwards; }
     @keyframes in { from { opacity: 0; transform: translateY(4px); } to { opacity: 1; transform: none; } }
