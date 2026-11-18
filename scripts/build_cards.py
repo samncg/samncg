@@ -42,9 +42,9 @@ query($login: String!) {
 
 THEMES = {
     "dark": dict(bg="#000000", line="#262626", ink="#ededed", sub="#a3a3a3", faint="#5a5a5a",
-                 empty="#262626", accent="#9a7bff", levels=["#3a3a3a", "#7a7a7a", "#b5b5b5", "#ededed"]),
+                 empty="#262626", accent="#c4b2ff", levels=["#4a3a85", "#6d55c9", "#9378ff", "#c4b2ff"]),
     "light": dict(bg="#ffffff", line="#d0d7de", ink="#121212", sub="#4a4a4a", faint="#9a9a9a",
-                  empty="#d9d9d9", accent="#6b4fd8", levels=["#b9b9b9", "#7d7d7d", "#444444", "#121212"]),
+                  empty="#d9d9d9", accent="#3c2899", levels=["#c7baf5", "#9a82ea", "#6b4fd8", "#3c2899"]),
 }
 FONT = 'ui-monospace, SFMono-Regular, Menlo, Consolas, "Liberation Mono", monospace'
 
@@ -192,7 +192,8 @@ def heat_card(u, t):
             else:
                 col = t["levels"][lvl - 1]
             delay = wi * 0.012
-            body.append(f'<text x="{x}" y="{y + 13}" fill="{col}" class="row" style="animation-delay:{delay:.2f}s">'
+            # colour goes in the style attribute: the card's `text { fill }` rule would override a fill attribute
+            body.append(f'<text x="{x}" y="{y + 13}" class="row" style="fill:{col};animation-delay:{delay:.2f}s">'
                         f'<title>{c} on {d["date"]}</title>{glyph[lvl]}</text>')
             if day.day <= 7 and day.isoweekday() % 7 == 0 and day.month != last_month:
                 months.append((x, day.strftime("%b").lower()))
