@@ -30,7 +30,7 @@ I make things you can hold, play and run: CAD and 3D printed parts, Android apps
 
 <picture>
   <source media="(prefers-color-scheme: dark)" srcset="assets/generated/heatmap-dark.svg">
-  <img alt="Contribution heatmap for the last year, drawn in ASCII" src="assets/generated/heatmap-light.svg" width="100%">
+  <img alt="Contribution heatmap for the last year, on a thermal colour scale" src="assets/generated/heatmap-light.svg" width="100%">
 </picture>
 
 ### building

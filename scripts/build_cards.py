@@ -42,9 +42,11 @@ query($login: String!) {
 
 THEMES = {
     "dark": dict(bg="#000000", line="#262626", ink="#ededed", sub="#a3a3a3", faint="#5a5a5a",
-                 empty="#262626", accent="#c4b2ff", levels=["#4a3a85", "#6d55c9", "#9378ff", "#c4b2ff"]),
+                 empty="#262626", accent="#c4b2ff", levels=["#4a3a85", "#6d55c9", "#9378ff", "#c4b2ff"],
+                 cell="#161616", heat=["#4b2386", "#c23a6b", "#f07f2d", "#ffd65c"]),
     "light": dict(bg="#ffffff", line="#d0d7de", ink="#121212", sub="#4a4a4a", faint="#9a9a9a",
-                  empty="#d9d9d9", accent="#3c2899", levels=["#c7baf5", "#9a82ea", "#6b4fd8", "#3c2899"]),
+                  empty="#d9d9d9", accent="#3c2899", levels=["#c7baf5", "#9a82ea", "#6b4fd8", "#3c2899"],
+                  cell="#ebedf0", heat=["#7a4fd0", "#d6457a", "#f0832a", "#e8b100"]),
 }
 FONT = 'ui-monospace, SFMono-Regular, Menlo, Consolas, "Liberation Mono", monospace'
 
@@ -160,55 +162,45 @@ def langs_card(u, t):
 
 
 def heat_card(u, t):
+    """Contribution calendar as squares on a thermal scale: cool purple for light days, through red and
+    orange, to hot yellow for the busiest (levels are quartiles of your own non-zero days)."""
     cal = u["contributionsCollection"]["contributionCalendar"]
     weeks = cal["weeks"]
     counts = sorted(d["contributionCount"] for w in weeks for d in w["contributionDays"] if d["contributionCount"])
     q = lambda p: counts[min(len(counts) - 1, int(len(counts) * p))] if counts else 1
     cuts = [q(0.25), q(0.5), q(0.8)]
-    glyph = ["·", ":", "+", "#", "@"]
-    cell_w, cell_h, x0, y0 = 18, 18, 24, 58
+    cell, gap, x0, y0 = 14, 4, 24, 58
+    step = cell + gap
     body = []
     months, last_month = [], None
     for wi, w in enumerate(weeks):
         for d in w["contributionDays"]:
             day = dt.date.fromisoformat(d["date"])
             c = d["contributionCount"]
-            if c == 0:
-                lvl = 0
-            elif c <= cuts[0]:
-                lvl = 1
-            elif c <= cuts[1]:
-                lvl = 2
-            elif c <= cuts[2]:
-                lvl = 3
-            else:
-                lvl = 4
-            x = x0 + wi * cell_w
-            y = y0 + day.isoweekday() % 7 * cell_h
-            if lvl == 0:
-                col = t["empty"]
-            elif lvl == 4:
-                col = t["accent"]
-            else:
-                col = t["levels"][lvl - 1]
+            lvl = 0 if c == 0 else 1 if c <= cuts[0] else 2 if c <= cuts[1] else 3 if c <= cuts[2] else 4
+            x = x0 + wi * step
+            y = y0 + day.isoweekday() % 7 * step
+            col = t["cell"] if lvl == 0 else t["heat"][lvl - 1]
             delay = wi * 0.012
-            # colour goes in the style attribute: the card's `text { fill }` rule would override a fill attribute
-            body.append(f'<text x="{x}" y="{y + 13}" class="row" style="fill:{col};animation-delay:{delay:.2f}s">'
-                        f'<title>{c} on {d["date"]}</title>{glyph[lvl]}</text>')
+            # colour goes in the style attribute so no stylesheet rule can override it
+            body.append(f'<rect x="{x}" y="{y}" width="{cell}" height="{cell}" rx="3" class="row" '
+                        f'style="fill:{col};animation-delay:{delay:.2f}s"><title>{c} on {d["date"]}</title></rect>')
             if day.day <= 7 and day.isoweekday() % 7 == 0 and day.month != last_month:
                 months.append((x, day.strftime("%b").lower()))
                 last_month = day.month
     for x, m in months:
-        body.append(f'<text class="faint" x="{x}" y="{y0 - 6}">{m}</text>')
+        body.append(f'<text class="faint" x="{x}" y="{y0 - 8}">{m}</text>')
     total = cal["totalContributions"]
-    legend_y = y0 + 7 * cell_h + 26
+    legend_y = y0 + 7 * step + 24
     body.append(f'<text x="{x0}" y="{legend_y}"><tspan class="ink">{total}</tspan> contributions in the last year</text>')
-    lx = x0 + len(weeks) * cell_w - 150
-    body.append(f'<text x="{lx}" y="{legend_y}"><tspan class="faint">less </tspan>'
-                f'<tspan fill="{t["empty"]}">·</tspan> <tspan fill="{t["levels"][0]}">:</tspan> '
-                f'<tspan fill="{t["levels"][1]}">+</tspan> <tspan fill="{t["levels"][2]}">#</tspan> '
-                f'<tspan fill="{t["accent"]}">@</tspan><tspan class="faint"> more</tspan></text>')
-    w = x0 * 2 + len(weeks) * cell_w - 4
+    right = x0 + len(weeks) * step - gap
+    swatches = [t["cell"]] + t["heat"]
+    sx = right - 40 - len(swatches) * step
+    body.append(f'<text class="faint" x="{sx - 8}" y="{legend_y}" text-anchor="end">less</text>')
+    for i, col in enumerate(swatches):
+        body.append(f'<rect x="{sx + i * step}" y="{legend_y - 11}" width="{cell}" height="{cell}" rx="3" style="fill:{col}"/>')
+    body.append(f'<text class="faint" x="{sx + len(swatches) * step + 4}" y="{legend_y}">more</text>')
+    w = x0 * 2 + len(weeks) * step - gap
     return frame(t, w, legend_y + 22, f"~/{USER}/contributions", "\n  ".join(body))
 
 
