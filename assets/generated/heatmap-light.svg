@@ -377,7 +377,7 @@
   <rect x="960" y="58" width="14" height="14" rx="3" class="row" style="fill:#e8b100;animation-delay:0.62s"><title>17 on 2026-11-15</title></rect>
   <rect x="960" y="76" width="14" height="14" rx="3" class="row" style="fill:#e8b100;animation-delay:0.62s"><title>13 on 2026-11-16</title></rect>
   <rect x="960" y="94" width="14" height="14" rx="3" class="row" style="fill:#e8b100;animation-delay:0.62s"><title>19 on 2026-11-17</title></rect>
-  <rect x="960" y="112" width="14" height="14" rx="3" class="row" style="fill:#f0832a;animation-delay:0.62s"><title>7 on 2026-11-18</title></rect>
+  <rect x="960" y="112" width="14" height="14" rx="3" class="row" style="fill:#f0832a;animation-delay:0.62s"><title>9 on 2026-11-18</title></rect>
   <text class="faint" x="78" y="50">dec</text>
   <text class="faint" x="150" y="50">jan</text>
   <text class="faint" x="222" y="50">feb</text>
@@ -390,7 +390,7 @@
   <text class="faint" x="780" y="50">sep</text>
   <text class="faint" x="852" y="50">oct</text>
   <text class="faint" x="924" y="50">nov</text>
-  <text x="24" y="208"><tspan class="ink">178</tspan> contributions in the last year</text>
+  <text x="24" y="208"><tspan class="ink">180</tspan> contributions in the last year</text>
   <text class="faint" x="836" y="208" text-anchor="end">less</text>
   <rect x="844" y="197" width="14" height="14" rx="3" style="fill:#ebedf0"/>
   <rect x="862" y="197" width="14" height="14" rx="3" style="fill:#7a4fd0"/>
