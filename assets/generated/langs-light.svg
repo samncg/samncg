@@ -11,10 +11,10 @@
   <rect x=".5" y=".5" width="479" height="221" rx="10" fill="#ffffff" stroke="#d0d7de"/>
   <text class="title" x="22" y="34">~/samncg/languages</text>
   <g class="row" style="animation-delay:0.00s"><text x="22" y="66"><tspan class="ink">Python      </tspan> <tspan class="faint">[</tspan><tspan class="accent">######################</tspan><tspan class="faint">]</tspan>  33.0%</text></g>
-  <g class="row" style="animation-delay:0.08s"><text x="22" y="87"><tspan class="ink">JavaScript  </tspan> <tspan class="faint">[</tspan><tspan class="ink">##############</tspan><tspan class="faint">--------]</tspan>  20.5%</text></g>
+  <g class="row" style="animation-delay:0.08s"><text x="22" y="87"><tspan class="ink">JavaScript  </tspan> <tspan class="faint">[</tspan><tspan class="ink">##############</tspan><tspan class="faint">--------]</tspan>  20.7%</text></g>
   <g class="row" style="animation-delay:0.16s"><text x="22" y="108"><tspan class="ink">Kotlin      </tspan> <tspan class="faint">[</tspan><tspan class="ink">############</tspan><tspan class="faint">----------]</tspan>  17.7%</text></g>
-  <g class="row" style="animation-delay:0.24s"><text x="22" y="129"><tspan class="ink">HTML        </tspan> <tspan class="faint">[</tspan><tspan class="ink">##########</tspan><tspan class="faint">------------]</tspan>  14.3%</text></g>
+  <g class="row" style="animation-delay:0.24s"><text x="22" y="129"><tspan class="ink">HTML        </tspan> <tspan class="faint">[</tspan><tspan class="ink">#########</tspan><tspan class="faint">-------------]</tspan>  14.3%</text></g>
   <g class="row" style="animation-delay:0.32s"><text x="22" y="150"><tspan class="ink">Java        </tspan> <tspan class="faint">[</tspan><tspan class="ink">#######</tspan><tspan class="faint">---------------]</tspan>  11.1%</text></g>
-  <g class="row" style="animation-delay:0.40s"><text x="22" y="171"><tspan class="ink">CSS         </tspan> <tspan class="faint">[</tspan><tspan class="ink">##</tspan><tspan class="faint">--------------------]</tspan>   3.1%</text></g>
+  <g class="row" style="animation-delay:0.40s"><text x="22" y="171"><tspan class="ink">CSS         </tspan> <tspan class="faint">[</tspan><tspan class="ink">##</tspan><tspan class="faint">--------------------]</tspan>   3.0%</text></g>
   <g class="row" style="animation-delay:0.48s"><text x="22" y="192"><tspan class="ink">PowerShell  </tspan> <tspan class="faint">[</tspan><tspan class="ink">#</tspan><tspan class="faint">---------------------]</tspan>   0.3%</text></g>
 </svg>

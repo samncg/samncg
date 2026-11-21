@@ -10,11 +10,11 @@
   </style>
   <rect x=".5" y=".5" width="479" height="221" rx="10" fill="#000000" stroke="#262626"/>
   <text class="title" x="22" y="34">~/samncg/stats</text>
-  <g class="row" style="animation-delay:0.00s"><text x="22" y="66"><tspan class="faint">&gt; </tspan>contributions (1y) <tspan class="faint">.......................</tspan> <tspan class="ink">201</tspan></text></g>
-  <g class="row" style="animation-delay:0.08s"><text x="22" y="87"><tspan class="faint">&gt; </tspan>commits (1y) <tspan class="faint">.............................</tspan> <tspan class="ink">190</tspan></text></g>
+  <g class="row" style="animation-delay:0.00s"><text x="22" y="66"><tspan class="faint">&gt; </tspan>contributions (1y) <tspan class="faint">.......................</tspan> <tspan class="ink">213</tspan></text></g>
+  <g class="row" style="animation-delay:0.08s"><text x="22" y="87"><tspan class="faint">&gt; </tspan>commits (1y) <tspan class="faint">.............................</tspan> <tspan class="ink">202</tspan></text></g>
   <g class="row" style="animation-delay:0.16s"><text x="22" y="108"><tspan class="faint">&gt; </tspan>public repos <tspan class="faint">..............................</tspan> <tspan class="ink">10</tspan></text></g>
   <g class="row" style="animation-delay:0.24s"><text x="22" y="129"><tspan class="faint">&gt; </tspan>stars earned <tspan class="faint">...............................</tspan> <tspan class="ink">4</tspan></text></g>
-  <g class="row" style="animation-delay:0.32s"><text x="22" y="150"><tspan class="faint">&gt; </tspan>current streak <tspan class="faint">............................</tspan> <tspan class="accent">7d</tspan></text></g>
+  <g class="row" style="animation-delay:0.32s"><text x="22" y="150"><tspan class="faint">&gt; </tspan>current streak <tspan class="faint">............................</tspan> <tspan class="accent">1d</tspan></text></g>
   <g class="row" style="animation-delay:0.40s"><text x="22" y="171"><tspan class="faint">&gt; </tspan>longest streak <tspan class="faint">............................</tspan> <tspan class="accent">7d</tspan></text></g>
   <g class="row" style="animation-delay:0.48s"><text x="22" y="192"><tspan class="faint">&gt; </tspan>on github since <tspan class="faint">.........................</tspan> <tspan class="ink">2023</tspan></text></g>
 </svg>
