@@ -376,6 +376,7 @@
   <rect x="942" y="166" width="14" height="14" rx="3" class="row" style="fill:#e8b100;animation-delay:0.61s"><title>15 on 2026-11-21</title></rect>
   <rect x="960" y="58" width="14" height="14" rx="3" class="row" style="fill:#7a4fd0;animation-delay:0.62s"><title>2 on 2026-11-22</title></rect>
   <rect x="960" y="76" width="14" height="14" rx="3" class="row" style="fill:#7a4fd0;animation-delay:0.62s"><title>1 on 2026-11-23</title></rect>
+  <rect x="960" y="94" width="14" height="14" rx="3" class="row" style="fill:#ebedf0;animation-delay:0.62s"><title>0 on 2026-11-24</title></rect>
   <text class="faint" x="60" y="50">dec</text>
   <text class="faint" x="132" y="50">jan</text>
   <text class="faint" x="204" y="50">feb</text>
